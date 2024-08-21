@@ -11,7 +11,7 @@ This page is meant to act as a collection of the latest Imaging Applications tea
 [GitHub repository](https://github.com/TheJacksonLaboratory/image-processing-ia)
 
 ## Introduction to napari
-[Work slide-deck](https://thejacksonlaboratory.github.io/intro-napari-workshop/)
+[Work slide-deck](https://thejacksonlaboratory.github.io/intro-napari-workshop/)  
 [GitHub repository](https://github.com/TheJacksonLaboratory/intro-napari-workshop)
 
 ## Introduction to Machine Learning with Python
@@ -26,7 +26,17 @@ Note: these Colab notebooks require a Google account.
 | Deep Learning for image classification and feature extraction | [link](https://colab.research.google.com/drive/1XI7QXw-4OsxCHuRFTYaPwMTVgIJsD2cU) | [link](https://colab.research.google.com/drive/103cSwSoeAva4O2_UDACgh55KF5w3-Dzm) |
 | [Optional] Tissue classification combining Deep Learning and Classic Machine Learning | [link](https://colab.research.google.com/drive/1H0k2dkoWSfdv6KPZaGwmzREExnAFfzWJ) | [link](https://colab.research.google.com/drive/1zrpaB-7nJoAZ2BYf9Mk-5_kBs-Xby8hg) |
 
-## Zarr and Dask
+## Zarr and Dask for Large-Scale Imaging
+Note: these Colab notebooks require a Google account.
+
+| Topics | Notebooks | Solutions |
+|--------|-----------|-----------|
+| Intro to Zarr | [link](https://colab.research.google.com/drive/1Um_1hgM0zkq8varrRWM4tqFGp-kVZF-w) | [link](https://colab.research.google.com/drive/1wdanwx1dvFZkw9OGYTjPvcf_onbW3Wrv) |
+| Converting images to Zarr arrays for image analysis | [link](https://colab.research.google.com/drive/1mwxIWU2Pb8pS7RATd_Cp34p6xyMQIwDi) | [link](https://colab.research.google.com/drive/1UxVo0G97xbcXIFd7a_t50cBO86lZUIXA) |
+| Tools for image analysis and visualization | [link](https://colab.research.google.com/drive/150CYBrKQn41H4klwh7-sQA3eciD4MJJ0) |  [link](https://colab.research.google.com/drive/1NrrpbP5S7zSASi15bYtvHDkYnXZ5aesc) |
+| Intro to Dask | [link](https://colab.research.google.com/drive/1UcVfEbMwZkWjFtigYOS1KnQfDU6QnrgR) | [link](https://colab.research.google.com/drive/1_kPDnqs-Rvg8wzOV1_cxZFkwJt119xg0) |
+| Computation on Dask arrays | [link](https://colab.research.google.com/drive/1uNlv7WdW4mPVr7TsYhx-WUeneULn0PeE) | [link](https://colab.research.google.com/drive/1KHsmnYLc4OEQdBmQ1MfFTJwmbVJWdMe8) |
+
 
 ## Best practices in Python
 [Workshop materials (md)](https://github.com/TheJacksonLaboratory/bestpractices_workshop/blob/main/README.md#bestpractices_workshop)  
