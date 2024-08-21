@@ -1,5 +1,5 @@
 # Documentation for RIT Imaging Applications
-Markdown files of documentation, with images published in /images folder. 
+Markdown files of documentation, with images published in this github repo. 
 
 ## Images in markdown
 To avoid extra work to upload images to sharepoint and change markdown links, all images use absolute links to the images stored in this public github.
