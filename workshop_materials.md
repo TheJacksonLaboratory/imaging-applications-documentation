@@ -25,3 +25,7 @@ Note: these Colab notebooks require a Google account.
 ## Introduction to Fiji
 [Work slide-deck](https://thejacksonlaboratory.github.io/fiji_workshops/IntroFiji.html)  
 [GitHub repository](https://github.com/TheJacksonLaboratory/fiji_workshops)
+
+## (Bio)Image Processing with Python
+[Workshop materials website](https://thejacksonlaboratory.github.io/image-processing-ia/)  
+[GitHub repository](https://github.com/TheJacksonLaboratory/image-processing-ia)
