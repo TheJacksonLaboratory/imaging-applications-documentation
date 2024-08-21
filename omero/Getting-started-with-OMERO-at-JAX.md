@@ -1,5 +1,3 @@
-# OMERO: Getting started with OMERO image data management
-
 ## What is OMERO?
 OMERO is a software platform for visualizing, managing, and annotating scientific image data. OMERO lets you import and archive your images, annotate and tag them, record your experimental protocols, and export images in a number of formats. It also allows you to collaborate with colleagues by creating user groups with different permission levels. Finally, it provides a convenient interface for programmatic access to your image data.
 
@@ -19,7 +17,7 @@ To be able to store your images in OMERO, you’ll have to request access via th
 Once you have access to OMERO, you can log in to our internal, research instance at [omeroweb.jax.org](omeroweb.jax.org) using your JAX “shortname” and password.
 
 ## How do I import my image data into OMERO?
-JAX uses a special workflow for importing data into OMERO. Instead of relying on users to upload their own data directly to the server, we only require them to place their data into a specific folder, and the OMERO admins do the import. This is both due to an established minimum requirement for metadata and due to specificities on how we manage storage for the OMERO server. Follow the steps at [OMERO: import data into OMERO](omero_import.md) at JAX to import your data.
+JAX uses a special workflow for importing data into OMERO. Instead of relying on users to upload their own data directly to the server, we only require them to place their data into a specific folder, and the OMERO admins do the import. This is both due to an established minimum requirement for metadata and due to specificities on how we manage storage for the OMERO server. Follow the steps at [OMERO: import data into OMERO](https://jacksonlaboratory.sharepoint.com/sites/ResearchIT/SitePages/Import-data-into-OMERO-at-JAX.aspx) at JAX to import your data.
 
 ## How do I use the OMERO web interface?
 Log in at [omeroweb.jax.org](omeroweb.jax.org) using the instructions from [OMERO: Browsing images and metadata to view images](omero_browsing.md). For more in-depth information on editing rendering settings, see [Bulk-edit rendering settings in OMERO](omero_rendering.md). 
