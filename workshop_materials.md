@@ -29,6 +29,8 @@ Note: these Colab notebooks require a Google account.
 ## Zarr and Dask
 
 ## Best practices in Python
+[Workshop materials (md)](https://github.com/TheJacksonLaboratory/bestpractices_workshop/blob/main/README.md#bestpractices_workshop)  
+[GitHub repository](https://github.com/TheJacksonLaboratory/bestpractices_workshop)
 
 
 ## Introduction to Fiji
