@@ -6,6 +6,10 @@ This page is meant to act as a collection of the latest Imaging Applications tea
 [Workshop slide-deck](https://thejacksonlaboratory.github.io/intro_qupath_workshop/)
 [GitHub repository](https://github.com/TheJacksonLaboratory/intro_qupath_workshop)
 
+## (Bio)Image Processing with Python
+[Workshop materials website](https://thejacksonlaboratory.github.io/image-processing-ia/)  
+[GitHub repository](https://github.com/TheJacksonLaboratory/image-processing-ia)
+
 ## Introduction to napari
 [Work slide-deck](https://thejacksonlaboratory.github.io/intro-napari-workshop/)
 [GitHub repository](https://github.com/TheJacksonLaboratory/intro-napari-workshop)
@@ -22,10 +26,26 @@ Note: these Colab notebooks require a Google account.
 | Deep Learning for image classification and feature extraction | [link](https://colab.research.google.com/drive/1XI7QXw-4OsxCHuRFTYaPwMTVgIJsD2cU) | [link](https://colab.research.google.com/drive/103cSwSoeAva4O2_UDACgh55KF5w3-Dzm) |
 | [Optional] Tissue classification combining Deep Learning and Classic Machine Learning | [link](https://colab.research.google.com/drive/1H0k2dkoWSfdv6KPZaGwmzREExnAFfzWJ) | [link](https://colab.research.google.com/drive/1zrpaB-7nJoAZ2BYf9Mk-5_kBs-Xby8hg) |
 
+## Zarr and Dask
+
+## Best practices in Python
+
+
 ## Introduction to Fiji
 [Work slide-deck](https://thejacksonlaboratory.github.io/fiji_workshops/IntroFiji.html)  
 [GitHub repository](https://github.com/TheJacksonLaboratory/fiji_workshops)
 
-## (Bio)Image Processing with Python
-[Workshop materials website](https://thejacksonlaboratory.github.io/image-processing-ia/)  
-[GitHub repository](https://github.com/TheJacksonLaboratory/image-processing-ia)
+## Advanced Machine Learning in Python
+
+
+## Intermediate Fiji: Macros & Scripting
+<materials in progress>
+
+## Intro to OMERO
+
+
+## OMERO for Python Users
+
+
+## Introduction to CellProfiler
+
