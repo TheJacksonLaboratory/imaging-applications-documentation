@@ -1,7 +1,7 @@
 ## Accessing OMERO.web
 If you have not accessed the JAX instance of OMERO before, please fill out an [Omero Access request ticket](https://jax.service-now.com/jax?id=sc_cat_item&sys_id=0ff8f9b5db5f9450b2d52eda489619b3), which can also be found by searching for OMERO in the service catalog.
 
-Once you have received confirmation that you have access, you can log in at [omeroweb.jax.org](omeroweb.jax.org).
+Once you have received confirmation that you have access, you can log in at [omeroweb.jax.org](https://omeroweb.jax.org).
 
 ## Logging into OMERO.web
 You can log into OMERO following the link above, or navigating to omeroweb.jax.org in your browser. If you find yourself at this Public User screen and need to log in, click the Login button in the upper right (red box).
