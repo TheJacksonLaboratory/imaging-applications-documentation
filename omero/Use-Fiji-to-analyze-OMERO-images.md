@@ -1,7 +1,7 @@
 ## Connect Fiji to OMERO
 1. Start the Fiji app and use the OMERO plugin to browse data in OMERO i.e. *Plugins > OMERO > Connect To OMERO*. If you do not have the plugin, follow these instructions for [Installing the OMERO plugin for Fiji/ImageJ](https://omero-guides.readthedocs.io/en/latest/fiji/docs/installation.html)
 
-2. In the OMERO login dialog, click the wrench ![](https://github.com/TheJacksonLaboratory/imaging-applications-documentation/blob/main/omero/images/omero_fiji_inline1.png?raw=true) icon and then add the server address (ctomero01lp.jax.org – NOTE THIS IS A DIFFERENT ADDRESS!) in the dialog. Click Apply. Now, log in with your JAX shortname and password (same as the webpage).
+2. In the OMERO login dialog, click the wrench icon and then add the server address (ctomero01lp.jax.org – NOTE THIS IS A DIFFERENT ADDRESS!) in the dialog. Click Apply. Now, log in with your JAX shortname and password (same as the webpage).
     ![Screenshot of OMERO insight login and server selection from imageJ](https://github.com/TheJacksonLaboratory/imaging-applications-documentation/blob/main/omero/images/omero_fiji_1.png?raw=true)
 
 3. Find and open any image (double-click the thumbnail) to make sure things work!
