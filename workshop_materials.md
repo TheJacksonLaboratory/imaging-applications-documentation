@@ -4,8 +4,9 @@ This page is meant to act as a collection of the latest Imaging Applications tea
 
 # OMERO-related workshops
 
-## Intro to OMERO
-
+## Introduction to OMERO
+[Workshop materials](https://thejacksonlaboratory.github.io/omero-training-materials/)
+[GitHub repository](https://github.com/TheJacksonLaboratory/omero-training-materials)
 
 ## [OMERO for Python Users](#omero-for-python-users-1)
 
