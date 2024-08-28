@@ -13,6 +13,8 @@ This page is meant to act as a collection of the latest Imaging Applications tea
 # Software tools workshops
 
 ## Introduction to CellProfiler
+[Workshop slide-deck](https://thejacksonlaboratory.github.io/intro_cellprofiler_workshop/)  
+[GitHub repository](https://github.com/TheJacksonLaboratory/intro_cellprofiler_workshop)
 
 ## Introduction to Fiji
 [Workshop slide-deck](https://thejacksonlaboratory.github.io/fiji_workshops/IntroFiji.html)  
@@ -28,8 +30,6 @@ This page is meant to act as a collection of the latest Imaging Applications tea
 ## Introduction to QuPath
 [Workshop slide-deck](https://thejacksonlaboratory.github.io/intro_qupath_workshop/)
 [GitHub repository](https://github.com/TheJacksonLaboratory/intro_qupath_workshop)
-
-
 
 # Python-related workshops
 
