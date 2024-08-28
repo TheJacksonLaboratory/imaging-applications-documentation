@@ -33,13 +33,7 @@ No prior experience with OMERO is necessary.
 ### Intermediate Fiji: Macros & Scripting
 `<materials in progress>`
 
-### Introduction to napari
-
-[napari](https://napari.org) is a Python image visualization and annotation application. This workshop is an introduction to napari and the napari ecosystem. It covers key concepts such as the GUI layout, viewer and layer models, as well as more advanced concepts such as the ability to bidirectionally interact with napari from Python code and make simple GUI widgets.  
-Note: It is intended for people who already have some familiarity with Python.
-
-[Workshop slide-deck](https://thejacksonlaboratory.github.io/intro-napari-workshop/)  
-[GitHub repository](https://github.com/TheJacksonLaboratory/intro-napari-workshop)
+### [Introduction to napari](#introduction-to-napari-1)
 
 ### Introduction to QuPath
 
@@ -58,6 +52,14 @@ This workshop will cover reading image files into Python to visualize and manipu
 
 [Workshop materials](https://thejacksonlaboratory.github.io/image-processing-ia/)  
 [GitHub repository](https://github.com/TheJacksonLaboratory/image-processing-ia)
+
+### Introduction to napari
+
+[napari](https://napari.org) is a Python image visualization and annotation application. This workshop is an introduction to napari and the napari ecosystem. It covers key concepts such as the GUI layout, viewer and layer models, as well as more advanced concepts such as the ability to bidirectionally interact with napari from Python code and make simple GUI widgets.  
+Note: It is intended for people who already have some familiarity with Python.
+
+[Workshop slide-deck](https://thejacksonlaboratory.github.io/intro-napari-workshop/)  
+[GitHub repository](https://github.com/TheJacksonLaboratory/intro-napari-workshop)
 
 ### OMERO for Python Users
 
