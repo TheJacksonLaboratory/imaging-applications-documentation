@@ -94,6 +94,7 @@ Note: these Colab notebooks require a Google account.
 | [Optional] Tissue classification combining Deep Learning and Classic Machine Learning | [link](https://colab.research.google.com/drive/1H0k2dkoWSfdv6KPZaGwmzREExnAFfzWJ) | [link](https://colab.research.google.com/drive/1zrpaB-7nJoAZ2BYf9Mk-5_kBs-Xby8hg) |
 
 ### Advanced Machine Learning in Python
+<materials in progress>
 
 ### Best practices in Python
 
