@@ -38,7 +38,8 @@ This page is meant to act as a collection of the latest Imaging Applications tea
 [GitHub repository](https://github.com/TheJacksonLaboratory/image-processing-ia)
 
 ### OMERO for Python Users
-
+[Workshop Jupyter Notebooks](https://github.com/TheJacksonLaboratory/omero_for_developers#workshop-notebooks)  
+[GitHub repository](https://github.com/TheJacksonLaboratory/omero_for_developers)
 
 ### Zarr and Dask for Large-Scale Imaging
 Note: these Colab notebooks require a Google account.
