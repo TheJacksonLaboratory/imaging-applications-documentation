@@ -1,6 +1,6 @@
-# Workshop Materials
+# Imaging Applications Workshop Materials
 
-This page is meant to act as a collection of the latest Imaging Applications team workshop materials.
+This page is meant to act as a collection of the latest Imaging Applications team workshop materials. For upcoming workshops, please see the RIT events calendar.
 
 ## OMERO-related workshops
 
