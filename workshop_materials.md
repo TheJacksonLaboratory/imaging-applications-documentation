@@ -6,7 +6,7 @@ This page is meant to act as a collection of the latest Imaging Applications tea
 
 ### Introduction to OMERO
 
-OMERO is an image data management and hosting solution. This workshop covers how to store, view, share, annotate, and analyze image data in OMERO.  
+[OMERO](https://www.openmicroscopy.org/omero/) is an image data management and hosting solution. This workshop covers how to store, view, share, annotate, and analyze image data in OMERO.  
 No prior experience with OMERO is necessary.
 
 [Workshop materials](https://thejacksonlaboratory.github.io/omero-training-materials/)  
