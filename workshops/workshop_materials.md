@@ -18,8 +18,8 @@ Jump to a workshop category:
 [OMERO](https://www.openmicroscopy.org/omero/) is an image data management and hosting solution. This workshop covers how to store, view, share, annotate, and analyze image data in OMERO.  
 No prior experience with OMERO is necessary.
 
-[Workshop materials](https://thejacksonlaboratory.github.io/omero-training-materials/)  
-[GitHub repository](https://github.com/TheJacksonLaboratory/omero-training-materials)
+* [Workshop materials](https://thejacksonlaboratory.github.io/omero-training-materials/)  
+* [GitHub repository](https://github.com/TheJacksonLaboratory/omero-training-materials)
 
 ### [OMERO for Python Users 🐍](#omero-for-python-users)
 
@@ -33,15 +33,15 @@ No prior experience with OMERO is necessary.
 
 [CellProfiler](https://cellprofiler.org) is a Python-based software package focused on image processing and analysis. This workshop serves as an introduction to the software and covers key concept such as projects, modules, and pipelines, as well as building and testing pipelines. 
 
-[Workshop slide-deck](https://thejacksonlaboratory.github.io/intro_cellprofiler_workshop/)  
-[GitHub repository](https://github.com/TheJacksonLaboratory/intro_cellprofiler_workshop)
+* [Workshop slide-deck](https://thejacksonlaboratory.github.io/intro_cellprofiler_workshop/)  
+* [GitHub repository](https://github.com/TheJacksonLaboratory/intro_cellprofiler_workshop)
 
 ### Introduction to Fiji
 
 [Fiji](https://fiji.sc) is a distribution of the [ImageJ](https://imagej.net/software/imagej/) open-source software package for analyzing scientific images. This workshop covers the basic concepts of image analysis (e.g. pixels, bit-depth) and then key Fiji concepts including the GUI layout, scale bars, measurements, and stacks. Finally, selected analysis applications/workflows are demonstrated, including segmentation, colocalization, and tracking. 
 
-[Workshop slide-deck](https://thejacksonlaboratory.github.io/fiji_workshops/IntroFiji.html)  
-[GitHub repository](https://github.com/TheJacksonLaboratory/fiji_workshops)
+* [Workshop slide-deck](https://thejacksonlaboratory.github.io/fiji_workshops/IntroFiji.html)  
+* [GitHub repository](https://github.com/TheJacksonLaboratory/fiji_workshops)
 
 ### Intermediate Fiji: Macros & Scripting
 `<materials in progress>`
@@ -54,8 +54,8 @@ No prior experience with OMERO is necessary.
 
 [QuPath](https://qupath.github.io) is a Java-based image visualization, annotation, and analysis package. This workshop begins with an introduction to the software and cover key concepts such as projects, images, classes, annotations, detections, followed by an example of segmentation and classification.
 
-[Workshop slide-deck](https://thejacksonlaboratory.github.io/intro_qupath_workshop/)  
-[GitHub repository](https://github.com/TheJacksonLaboratory/intro_qupath_workshop)
+* [Workshop slide-deck](https://thejacksonlaboratory.github.io/intro_qupath_workshop/)  
+* [GitHub repository](https://github.com/TheJacksonLaboratory/intro_qupath_workshop)
 
 ---
 
@@ -67,23 +67,23 @@ Note: These workshops are intended for people who already have some familiarity 
 
 This workshop will cover reading image files into Python to visualize and manipulate the image data using scikit-image, the most prominent image processing library for Python. Then it covers building a basic bioimage processing pipeline to apply basic filters, threshold, and segment objects in an image.  
 
-[Workshop materials](https://thejacksonlaboratory.github.io/image-processing-ia/)  
-[GitHub repository](https://github.com/TheJacksonLaboratory/image-processing-ia)
+* [Workshop materials](https://thejacksonlaboratory.github.io/image-processing-ia/)  
+* [GitHub repository](https://github.com/TheJacksonLaboratory/image-processing-ia)
 
 ### Introduction to napari
 
 [napari](https://napari.org) is a Python image visualization and annotation application. This workshop is an introduction to napari and the napari ecosystem. It covers key concepts such as the GUI layout, viewer and layer models, as well as more advanced concepts such as the ability to bidirectionally interact with napari from Python code and make simple GUI widgets.  
 Note: It is intended for people who already have some familiarity with Python.
 
-[Workshop slide-deck](https://thejacksonlaboratory.github.io/intro-napari-workshop/)  
-[GitHub repository](https://github.com/TheJacksonLaboratory/intro-napari-workshop)
+* [Workshop slide-deck](https://thejacksonlaboratory.github.io/intro-napari-workshop/)  
+* [GitHub repository](https://github.com/TheJacksonLaboratory/intro-napari-workshop)
 
 ### OMERO for Python Users
 
 This workshop covers interacting with the OMERO server from Python using primarily [ezomero](https://github.com/TheJacksonLaboratory/ezomero) and either the JSON or Blitz APIs.  
 
-[Workshop Jupyter Notebooks](https://github.com/TheJacksonLaboratory/omero_for_developers#workshop-notebooks)  
-[GitHub repository](https://github.com/TheJacksonLaboratory/omero_for_developers)
+* [Workshop Jupyter Notebooks](https://github.com/TheJacksonLaboratory/omero_for_developers#workshop-notebooks)  
+* [GitHub repository](https://github.com/TheJacksonLaboratory/omero_for_developers)
 
 ### Zarr and Dask for Large-Scale Imaging
 
@@ -122,5 +122,5 @@ Note: these Colab notebooks require a Google account.
 
 This workshop focuses on ways Python coders can improve code readability, maintainability and reproducibility. It covers virtual environments, automated testing, code formatting, and documentation.
 
-[Workshop materials (md)](https://github.com/TheJacksonLaboratory/bestpractices_workshop/blob/main/README.md#bestpractices_workshop)  
-[GitHub repository](https://github.com/TheJacksonLaboratory/bestpractices_workshop)
+* [Workshop materials (md)](https://github.com/TheJacksonLaboratory/bestpractices_workshop/blob/main/README.md#bestpractices_workshop)  
+* [GitHub repository](https://github.com/TheJacksonLaboratory/bestpractices_workshop)
