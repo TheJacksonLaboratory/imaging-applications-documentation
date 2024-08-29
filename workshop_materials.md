@@ -1,8 +1,8 @@
 # Imaging Applications Workshop Materials
 
-This page is meant to act as a collection of the latest Imaging Applications team workshop materials. For upcoming workshops, please see the [JAX RIT events calendar](https://jacksonlaboratory.sharepoint.com/sites/ResearchIT/_layouts/15/Events.aspx?Page=%2Fsites%2FResearchIT%2FSitePages%2FHome.aspx&InstanceId=25c26266-dac3-4346-97fb-4e581546fd58&AudienceTarget=false).
+This page is a collection of the latest Imaging Applications team workshop materials. For upcoming workshops, please see the [JAX RIT events calendar](https://jacksonlaboratory.sharepoint.com/sites/ResearchIT/_layouts/15/Events.aspx?Page=%2Fsites%2FResearchIT%2FSitePages%2FHome.aspx&InstanceId=25c26266-dac3-4346-97fb-4e581546fd58&AudienceTarget=false).
 
-## OMERO-related workshops
+# OMERO-related workshops
 
 ### Introduction to OMERO
 
@@ -14,7 +14,7 @@ No prior experience with OMERO is necessary.
 
 ### [OMERO for Python Users](#omero-for-python-users-1)
 
-## Software tools workshops
+# Software tools workshops
 
 ### Introduction to CellProfiler
 
@@ -42,7 +42,7 @@ No prior experience with OMERO is necessary.
 [Workshop slide-deck](https://thejacksonlaboratory.github.io/intro_qupath_workshop/)  
 [GitHub repository](https://github.com/TheJacksonLaboratory/intro_qupath_workshop)
 
-## Python-related workshops
+# Python-related workshops
 
 Note: These workshops are intended for people who already have some familiarity with Python.
 
