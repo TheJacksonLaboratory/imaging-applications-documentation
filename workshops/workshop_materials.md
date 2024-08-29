@@ -2,7 +2,16 @@
 
 This page is a collection of the latest Imaging Applications team workshop materials. For upcoming workshops, please see the [JAX RIT events calendar](https://jacksonlaboratory.sharepoint.com/sites/ResearchIT/_layouts/15/Events.aspx?Page=%2Fsites%2FResearchIT%2FSitePages%2FHome.aspx&InstanceId=25c26266-dac3-4346-97fb-4e581546fd58&AudienceTarget=false).
 
-# OMERO-related workshops
+Jump to a workshop category:
+* [OMERO-related](#omero-related-workshops)
+* [Software tools](#software-tools-workshops)
+* [Python-related](#python-related-workshops)
+
+&nbsp;  
+
+---
+
+## OMERO-related workshops
 
 ### Introduction to OMERO
 
@@ -12,9 +21,13 @@ No prior experience with OMERO is necessary.
 [Workshop materials](https://thejacksonlaboratory.github.io/omero-training-materials/)  
 [GitHub repository](https://github.com/TheJacksonLaboratory/omero-training-materials)
 
-### [OMERO for Python Users](#omero-for-python-users-1)
+### [OMERO for Python Users 🐍](#omero-for-python-users)
 
-# Software tools workshops
+&nbsp;  
+
+---
+
+## Software tools workshops
 
 ### Introduction to CellProfiler
 
@@ -33,7 +46,9 @@ No prior experience with OMERO is necessary.
 ### Intermediate Fiji: Macros & Scripting
 `<materials in progress>`
 
-### [Introduction to napari](#introduction-to-napari-1)
+### [Introduction to napari 🐍](#introduction-to-napari)
+
+&nbsp;  
 
 ### Introduction to QuPath
 
@@ -42,7 +57,9 @@ No prior experience with OMERO is necessary.
 [Workshop slide-deck](https://thejacksonlaboratory.github.io/intro_qupath_workshop/)  
 [GitHub repository](https://github.com/TheJacksonLaboratory/intro_qupath_workshop)
 
-# Python-related workshops
+---
+
+## Python-related workshops
 
 Note: These workshops are intended for people who already have some familiarity with Python.
 
@@ -71,7 +88,6 @@ This workshop covers interacting with the OMERO server from Python using primari
 ### Zarr and Dask for Large-Scale Imaging
 
 [Zarr](https://zarr.dev) is a format for storing image data in chunks that is amenable for parallel computing and cloud storage. [Dask](https://www.dask.org) is a Python library for parallel computing that enables working with data that is larger than computer RAM. This workshop covers the use of the Zarr file format and Dask library to scale-up image analysis pipelines in Python.  
-Note: these Colab notebooks require a Google account.
 
 | Topics | Notebooks | Solutions |
 |--------|-----------|-----------|
@@ -81,10 +97,12 @@ Note: these Colab notebooks require a Google account.
 | Intro to Dask | [link](https://colab.research.google.com/drive/1UcVfEbMwZkWjFtigYOS1KnQfDU6QnrgR) | [link](https://colab.research.google.com/drive/1_kPDnqs-Rvg8wzOV1_cxZFkwJt119xg0) |
 | Computation on Dask arrays | [link](https://colab.research.google.com/drive/1uNlv7WdW4mPVr7TsYhx-WUeneULn0PeE) | [link](https://colab.research.google.com/drive/1KHsmnYLc4OEQdBmQ1MfFTJwmbVJWdMe8) |
 
+Note: these Colab notebooks require a Google account.
+
+
 ### Introduction to Machine Learning with Python
 
 This workshop provides an introduction to machine learning methods in Python, focusing on [scikit-learn](https://scikit-learn.org/stable/) and [PyTorch](https://pytorch.org).  
-Note: these Colab notebooks require a Google account.
 
 | Topics | Notebooks | Solutions |
 |--------|-----------|-----------|
@@ -94,6 +112,8 @@ Note: these Colab notebooks require a Google account.
 | Intro to PyTorch | [link](https://colab.research.google.com/drive/1woc7ihB4O9nx6s_2TzFM8CIvKU_9yANx) | [link](https://colab.research.google.com/drive/1pPBf645eZRXtImSZLp2jyYNQxAeDXuWN) |
 | Deep Learning for image classification and feature extraction | [link](https://colab.research.google.com/drive/1XI7QXw-4OsxCHuRFTYaPwMTVgIJsD2cU) | [link](https://colab.research.google.com/drive/103cSwSoeAva4O2_UDACgh55KF5w3-Dzm) |
 | [Optional] Tissue classification combining Deep Learning and Classic Machine Learning | [link](https://colab.research.google.com/drive/1H0k2dkoWSfdv6KPZaGwmzREExnAFfzWJ) | [link](https://colab.research.google.com/drive/1zrpaB-7nJoAZ2BYf9Mk-5_kBs-Xby8hg) |
+
+Note: these Colab notebooks require a Google account.
 
 ### Advanced Machine Learning in Python
 `<materials in progress>`
