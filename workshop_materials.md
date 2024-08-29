@@ -1,6 +1,6 @@
 # Imaging Applications Workshop Materials
 
-This page is meant to act as a collection of the latest Imaging Applications team workshop materials. For upcoming workshops, please see the RIT events calendar.
+This page is meant to act as a collection of the latest Imaging Applications team workshop materials. For upcoming workshops, please see the [JAX RIT events calendar](https://jacksonlaboratory.sharepoint.com/sites/ResearchIT/_layouts/15/Events.aspx?Page=%2Fsites%2FResearchIT%2FSitePages%2FHome.aspx&InstanceId=25c26266-dac3-4346-97fb-4e581546fd58&AudienceTarget=false).
 
 ## OMERO-related workshops
 
