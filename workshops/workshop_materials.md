@@ -40,11 +40,16 @@ No prior experience with OMERO is necessary.
 
 [Fiji](https://fiji.sc) is a distribution of the [ImageJ](https://imagej.net/software/imagej/) open-source software package for analyzing scientific images. This workshop covers the basic concepts of image analysis (e.g. pixels, bit-depth) and then key Fiji concepts including the GUI layout, scale bars, measurements, and stacks. Finally, selected analysis applications/workflows are demonstrated, including segmentation, colocalization, and tracking. 
 
-* [Workshop slide-deck](https://thejacksonlaboratory.github.io/fiji_workshops/IntroFiji.html)  
+* [Fiji Workshop materials](https://thejacksonlaboratory.github.io/fiji_workshops/)
+* [Intro Fiji Workshop slide-deck](https://thejacksonlaboratory.github.io/fiji_workshops/IntroFiji.html)  
 * [GitHub repository](https://github.com/TheJacksonLaboratory/fiji_workshops)
 
 ### Intermediate Fiji: Macros & Scripting
-`<materials in progress>`
+
+This two-part workshop covers covers the basics of macros and scripting in Fiji. Note: no prior coding experience is needed. The first session introduces the Macro Recorder, Script Editor, and ImageJ Macro language and programming basics. The second session goes through a set of exercises to step-by-step write a proper ImageJ macro and then install it into Fiji.
+
+* [Workshop materials](https://thejacksonlaboratory.github.io/fiji_workshops/index.html#intermediate-fiji))  
+* [GitHub repository](https://github.com/TheJacksonLaboratory/fiji_workshops)
 
 ### [Introduction to napari 🐍](#introduction-to-napari)
 
@@ -116,7 +121,13 @@ This workshop provides an introduction to machine learning methods in Python, fo
 Note: these Colab notebooks require a Google account.
 
 ### Advanced Machine Learning in Python
-`<materials in progress>`
+
+This workshop will advanced machine learning topics, including convolutional neural networks for computer vision applications, training models, fine-tuning pre-trained models, and performance metrics.   
+
+* [Workshop materials](https://thejacksonlaboratory.github.io/deeplearning-image-analysis-workshop/))  
+* [GitHub repository](https://github.com/TheJacksonLaboratory/deeplearning-image-analysis-workshop))
+
+Note: Colab notebooks are used in these materials, requiring a Google account
 
 ### Best practices in Python
 
