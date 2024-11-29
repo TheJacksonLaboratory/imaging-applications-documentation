@@ -48,7 +48,7 @@ No prior experience with OMERO is necessary.
 
 This two-part workshop covers covers the basics of macros and scripting in Fiji. Note: no prior coding experience is needed. The first session introduces the Macro Recorder, Script Editor, and ImageJ Macro language and programming basics. The second session goes through a set of exercises to step-by-step write a proper ImageJ macro and then install it into Fiji.
 
-* [Workshop materials](https://thejacksonlaboratory.github.io/fiji_workshops/index.html#intermediate-fiji))  
+* [Workshop materials](https://thejacksonlaboratory.github.io/fiji_workshops/index.html#intermediate-fiji)  
 * [GitHub repository](https://github.com/TheJacksonLaboratory/fiji_workshops)
 
 ### [Introduction to napari 🐍](#introduction-to-napari)
@@ -124,8 +124,8 @@ Note: these Colab notebooks require a Google account.
 
 This workshop will advanced machine learning topics, including convolutional neural networks for computer vision applications, training models, fine-tuning pre-trained models, and performance metrics.   
 
-* [Workshop materials](https://thejacksonlaboratory.github.io/deeplearning-image-analysis-workshop/))  
-* [GitHub repository](https://github.com/TheJacksonLaboratory/deeplearning-image-analysis-workshop))
+* [Workshop materials](https://thejacksonlaboratory.github.io/deeplearning-image-analysis-workshop/)  
+* [GitHub repository](https://github.com/TheJacksonLaboratory/deeplearning-image-analysis-workshop)
 
 Note: Colab notebooks are used in these materials, requiring a Google account
 
