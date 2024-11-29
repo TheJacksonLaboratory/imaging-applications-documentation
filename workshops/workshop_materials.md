@@ -40,7 +40,7 @@ No prior experience with OMERO is necessary.
 
 [Fiji](https://fiji.sc) is a distribution of the [ImageJ](https://imagej.net/software/imagej/) open-source software package for analyzing scientific images. This workshop covers the basic concepts of image analysis (e.g. pixels, bit-depth) and then key Fiji concepts including the GUI layout, scale bars, measurements, and stacks. Finally, selected analysis applications/workflows are demonstrated, including segmentation, colocalization, and tracking. 
 
-* [Fiji Workshop materials](https://thejacksonlaboratory.github.io/fiji_workshops/)
+* [Fiji Workshop materials](https://thejacksonlaboratory.github.io/fiji_workshops/)  
 * [Intro Fiji Workshop slide-deck](https://thejacksonlaboratory.github.io/fiji_workshops/IntroFiji.html)  
 * [GitHub repository](https://github.com/TheJacksonLaboratory/fiji_workshops)
 
