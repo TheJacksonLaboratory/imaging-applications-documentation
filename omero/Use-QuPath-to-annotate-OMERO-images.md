@@ -39,32 +39,32 @@ In order to import multiple images into QuPath or save your work, you will need 
 
 ## Connect QuPath to OMERO
 1. Go to `Extensions > OMERO > Browse server... > New server...`. On a Mac, this will be in the upper toolbar of the screen. On Windows, the menu dropdowns will be part of the QuPath window.
-![QuPath extensions dropdown](images/qupath-addserver-dropdown.png)
+![QuPath extensions dropdown](https://github.com/TheJacksonLaboratory/imaging-applications-documentation/blob/main/omero/images/qupath-addserver-dropdown.png?raw=true)
 2. Enter `https://omeroweb.jax.org` as the OMERO server URL.
-![Pop-up window for entering OMERO url into QuPath extension](images/qupath-omero-url.png)
+![Pop-up window for entering OMERO url into QuPath extension](https://github.com/TheJacksonLaboratory/imaging-applications-documentation/blob/main/omero/images/qupath-omero-url.png?raw=true)
 3. Log in using your normal JAX username and password.
 
 ## Open OMERO image in QuPath
 1. Browse OMERO images using the group and data owner dropdowns above the browser panel Select a project, dataset, or image and click the button at the bottom of the window to "Import ___ to QuPath".
-![Pop-up window for browsing OMERO datasets](images/qupath-omero-browse.png)
+![Pop-up window for browsing OMERO datasets](https://github.com/TheJacksonLaboratory/imaging-applications-documentation/blob/main/omero/images/qupath-omero-browse.png?raw=true)
 2. When opening an image for the first time (double click), QuPath may ask for confirmation of the image type. Apply the correct image type for the optimal viewing experience.
-![Pop-up window for QuPath setting image type](images/qupath_set_type.png)
+![Pop-up window for QuPath setting image type](https://github.com/TheJacksonLaboratory/imaging-applications-documentation/blob/main/omero/images/qupath_set_type.png?raw=true)
 
 🛑 Remember that the image viewed QuPath this way is a JPEG-compressed RGB version of the image in OMERO. DO NOT use this image for quantitative analysis of pixel values.
 
 ## Add annotations in QuPath
 1. Use the QuPath annotation tools to draw ROIs on the image. Find more information about using each tool in the [QuPath documentation](https://qupath.readthedocs.io/en/0.5/docs/starting/annotating.html).
-![Annotation toolbar](images/qupath_annotation_tools.png)
+![Annotation toolbar](https://github.com/TheJacksonLaboratory/imaging-applications-documentation/blob/main/omero/images/qupath_annotation_tools.png?raw=true)
 2. It is possible to create an ROI of a specific size using `Objects > Annotations > Specify annotation`. Toggle "Use μm" to switch between pixel and μm.
-![Dropdown to open window to specify annotations](images/qupath_specify_anno_dropdown.png)
-![Pop-up window to specify annotations with use microns selected](images/qupath_specify_anno.png)
-3. With the Move icon ![](images/qupath_move.png) selected in the menu, double click on an existing annotation to select it. Once annotation is highlighted in yellow with boxes, move it to desired location.
-![QuPath window with annotation selected in yellow](images/qupath_anno_select.png)
+![Dropdown to open window to specify annotations](https://github.com/TheJacksonLaboratory/imaging-applications-documentation/blob/main/omero/images/qupath_specify_anno_dropdown.png?raw=true)
+![Pop-up window to specify annotations with use microns selected](https://github.com/TheJacksonLaboratory/imaging-applications-documentation/blob/main/omero/images/qupath_specify_anno.png?raw=true)
+3. With the Move icon ![](https://github.com/TheJacksonLaboratory/imaging-applications-documentation/blob/main/omero/images/qupath_move.png?raw=true) selected in the menu, double click on an existing annotation to select it. Once annotation is highlighted in yellow with boxes, move it to desired location.
+![QuPath window with annotation selected in yellow](https://github.com/TheJacksonLaboratory/imaging-applications-documentation/blob/main/omero/images/qupath_anno_select.png?raw=true)
 
 ## Save annotations back to OMERO as ROIs
 1. With the image open in QuPath, go to `Extensions > Send to OMERO > Send annotations`.
-![QuPath dropdown for Send to OMERO](images/qupath_send_dropdown.png)
+![QuPath dropdown for Send to OMERO](https://github.com/TheJacksonLaboratory/imaging-applications-documentation/blob/main/omero/images/qupath_send_dropdown.png?raw=true)
 2. In the pop-up window, unselect "Delete existing annotations" and "Delete existing measurements" to preserve previously created or imported ROIs in OMERO. Choose whether to send all annotations or only those selected in yellow using the dropdown. Click OK to create ROIs in OMERO for these annotations.
-![QuPath pop-up window for sending annotations to OMERO](images/qupath_send_anno.png)
+![QuPath pop-up window for sending annotations to OMERO](https://github.com/TheJacksonLaboratory/imaging-applications-documentation/blob/main/omero/images/qupath_send_anno.png?raw=true)
 
 The QuPath annotations will be created as ROIs in OMERO, which can be viewed in OMERO.iviewer. Minimal shape measurements for the annotations are added to the images in OMERO as CSV attachments if the measurements checkboxes are selected in the "Data to send" pop-up window.
