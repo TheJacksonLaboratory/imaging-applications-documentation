@@ -10,8 +10,18 @@ To add an image to markdown:
 ![](https://github.com/imageurl)
 ```
 
-## Lists
-If you want to add anything on a new line between numbered lists (e.g. image links), indent them with four spaces to keep the numbering.
+## Lists & Spacing
+If you want to add anything on a new line between numbered lists (e.g. image links), indent them with four spaces to keep the numbering. VS Code is ok at keeping numbering, but Sharepoint will restart at 1. given a blank newline.
+
+To add blank space while maintaining list numbering, indent the blank line e.g.:
+
+```
+1. This is a list
+<indent>
+<indent>Maybe an image
+<indent>
+2. Another list item
+```
 
 ## Warning styling
 Block quotes can be created with `>`, make sure to indent if between numbered list items.
