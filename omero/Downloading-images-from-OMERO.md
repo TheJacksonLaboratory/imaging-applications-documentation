@@ -1,14 +1,24 @@
-# Downloading images from OMERO
+
+**OMERO is not a data transfer solution. Downloading images from OMERO should not be a regular part of the data lifecycle.**
+
+If you are considering downloading images from OMERO for viewing or annotation, please consider more efficient alternatives such as:
+- [viewing and annotating images from OMERO in QuPath](https://jacksonlaboratory.sharepoint.com/sites/ResearchIT/SitePages/Use-QuPath-to-annotate-OMERO-images.aspx)
+- [viewing and analyzing images from OMERO in ImageJ/Fiji](https://jacksonlaboratory.sharepoint.com/sites/ResearchIT/SitePages/Use-Fiji-to-analyze-OMERO-images.aspx)
+- Loading data from OMERO directly into Python using [ezomero](https://github.com/TheJacksonLaboratory/ezomero) 
+
+If you would like more information on these or other options, please contact kiya.govek@jax.org and peter.sobolewski@jax.org.
+
+## Overview
 
 To download images from OMERO, we recommend you use a command line tool called `omero` which allows you to interact directly with the OMERO server.
+
+We do not recommend attempting to download large images from the web portal (e.g. by clicking the download button at omeroweb.jax.org or images.jax.org) as this is a very indirect method and is prone to timing out.
 
 ## Prerequisites
 
 In order to install the `omero` command line tool, you will need to have `conda` installed on your system.  
 
-You can find step-by-step instructions for downloading and installing the `miniforge` conda distribution on SharePoint:  
-
-[https://jacksonlaboratory.sharepoint.com/sites/ResearchIT/SitePages/conda_installing_miniforge.aspx](https://jacksonlaboratory.sharepoint.com/sites/ResearchIT/SitePages/conda_installing_miniforge.aspx)
+You can find step-by-step instructions for downloading and installing the `miniforge` conda distribution in our ["conda best practices" Sharepoint articles](https://jacksonlaboratory.sharepoint.com/sites/ResearchIT/SitePages/conda_installing_miniforge.aspx).
 
 ## Installing the `omero` command line tool
 
@@ -61,11 +71,7 @@ omero download --help
 ```
 
 To download an image, you need to know its image ID in OMERO. You can find this ID by browsing the OMERO web interface. When you have an image selected, the image ID will be displayed in the right-hand Metadata panel, in the General tab, right under the name of the image, as a number next to the label *Image ID:*.  
-For more information on using the web interface, please see the OMERO web documentation in SharePoint:  
-
-[https://jacksonlaboratory.sharepoint.com/sites/ResearchIT/SitePages/Browsing-images-and-metadata-in-OMERO.aspx](https://jacksonlaboratory.sharepoint.com/sites/ResearchIT/SitePages/Browsing-images-and-metadata-in-OMERO.aspx)
-
-Once you have the image ID, you can download the image using the following command:
+For more information on using the web interface, see [Browsing images and metadata in OMERO](https://jacksonlaboratory.sharepoint.com/sites/ResearchIT/SitePages/Browsing-images-and-metadata-in-OMERO.aspx) on Sharepoint.
 
 ```bash
 omero download Image:<image_id> <output_directory>
