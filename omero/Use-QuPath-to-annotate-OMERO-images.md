@@ -9,9 +9,10 @@ If you do not already have QuPath installed, download QuPath from https://qupath
 Once you have QuPath 0.6.0 or newer, you can install the QuPath OMERO extension using the built in Extensions Manager:  
 
 1. To access the Extensions Manager, you can follow the prompt at startup, or use the menu: `Extensions > Manage extensions`
-2. In the Extensions Manager you should see "QuPath OMERO extension", labeled with a ⭐️ on the left.  
+2. In the Extensions Manager you should see "QuPath OMERO extension", labeled with a ⭐️ on the left.
 3. To install this extension, click the green (+) symbol.  
-4. In the "Install extension" window that pops up, make sure that the box "Install optional dependencies" is checked.
+4. In the "Install extension" window that pops up, make sure that the box "Install optional dependencies" is checked.  
+ **Important:** Ensure you have QuPath OMERO extension **v0.1.2** or newer! For more information, as well as details about updating on *Windows*, please see [our documentation](https://jacksonlaboratory.sharepoint.com/sites/ResearchIT/SitePages/Upgrade-your-QuPath-OMERO-Extension!.aspx).
 
 ## Create a project in QuPath (recommended)
 In order to import multiple images into QuPath or save your work, you will need a locally saved QuPath project. This will not download the OMERO images locally.
