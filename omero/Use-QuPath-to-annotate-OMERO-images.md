@@ -1,41 +1,20 @@
-This guide is intended for QuPath 0.5.0 and 0.5.1
-
 ## Install QuPath
 
-If you already have QuPath installed, check your version by opening QuPath and going to `Help > System Info`. If the version is not 0.5.0 or 0.5.1, this guide has not been tested for your version of QuPath and some information in it may be incorrect. It is possible to install multiple versions of QuPath on the same computer, so you may wish to follow the below instructions to install one of the 0.5 versions.
+If you already have QuPath installed, check your version by opening QuPath and going to `Help > System Info`. If the version is not 0.6.0 or newer, then we recommend downloading the latest QuPath.
 
-If you do not already have QuPath installed, download QuPath from https://qupath.github.io/ and follow the installation instructions. If the text below the download button does not say "Release notes v0.5.1", click "all releases" below and scroll down to 0.5.1 to expand the `assets` and download the correct one for your operating system.
+If you do not already have QuPath installed, download QuPath from https://qupath.github.io/ and follow the installation instructions to download the correct one for your operating system.
 
-## Download OMERO extension for QuPath
+## Installing the QuPath OMERO extension
 
-Before choosing an extension, it is important to understand how images are accessed from OMERO. There are two main ways OMERO can share images with other viewers or analysis software:
-- OMERO.web API 
-    - fast access to JPEG-compressed RGB image 
-    - ✅ best for viewing and annotating images quickly
-    - ❌ not usable for quantitative analysis
-- OMERO Ice API
-    - access to raw pixel values via OMERO.server
-    - ✅ necessary for quantitative analysis of pixel values
-    - ❌ slower to view images, may require Java dependencies
+Once you have QuPath 0.6.0 or newer, you can install the QuPath OMERO extension using the built in Extensions Manager:  
 
-Note: the OMERO.web API is also used by omeroweb.jax.org, so the image quality will be identical, meanwhile the OMERO Ice API is used by ezomero in Python.
+1. To access the Extensions Manager, you can follow the prompt at startup, or use the menu: `Extensions > Manage extensions`
+2. In the Extensions Manager you should see "QuPath OMERO extension", labeled with a ⭐️ on the left.
+3. To install this extension, click the green (+) symbol.  
+4. In the "Install extension" window that pops up, make sure that the box "Install optional dependencies" is checked.  
+ **Important:** Ensure you have QuPath OMERO extension **v0.1.2** or newer! For more information, as well as details about updating on *Windows*, please see [our documentation](https://jacksonlaboratory.sharepoint.com/sites/ResearchIT/SitePages/Upgrade-your-QuPath-OMERO-Extension!.aspx).
 
-There are three different OMERO extensions for QuPath, with different methods of accessing images:
-- [qupath/qupath-extension-omero](https://github.com/qupath/qupath-extension-omero) (Recommended) ⭐️
-    - current QuPath-supported extension
-    - supports image access via both OMERO.web API and Ice API, defaulting to web
-- [qupath/qupath-extension-omero-web](https://github.com/qupath/qupath-extension-omero-web)
-    - Old QuPath-supported extension for accessing images using the OMERO.web API
-    - May be deprecated in 2025
-    - Some JAX users with certain special characters in their password have experienced issues authenticating using this extension
-- [BIOP/qupath-extension-biop-omero](https://github.com/BIOP/qupath-extension-biop-omero)
-    - Image access via OMERO Ice API only
-
-These extensions are not interchangeable within a QuPath project - you will need to create a new project in QuPath if you want to switch extensions.
-
-The following steps will use [qupath/qupath-extension-omero](https://github.com/qupath/qupath-extension-omero) using the OMERO.web API. To install the extension, download the `.jar` file from the `Assets` dropdown under [Releases](https://github.com/qupath/qupath-extension-omero/releases). Start QuPath and drag the `.jar` file into the QuPath main window.
-
-## Create a project in QuPath
+## Create a project in QuPath (recommended)
 In order to import multiple images into QuPath or save your work, you will need a locally saved QuPath project. This will not download the OMERO images locally.
 1. Click `Create project` in the QuPath window or in `File > Project... > Create project`
 2. Create a new folder
@@ -52,15 +31,28 @@ In order to import multiple images into QuPath or save your work, you will need 
 3. Log in using your normal JAX username and password.
 
 ## Open OMERO image in QuPath
-1. Browse OMERO images using the group and data owner dropdowns above the browser panel Select a project, dataset, or image and click the button at the bottom of the window to "Import ___ to QuPath".
+1. Browse OMERO images using the group and data owner dropdowns above the browser panel Select a project, dataset, or image.
 
     ![Pop-up window for browsing OMERO datasets](https://github.com/TheJacksonLaboratory/imaging-applications-documentation/blob/main/omero/images/qupath-omero-browse.png?raw=true)
 
-    🛑 Remember that with the `Pixel API: Web` setting, the image viewed in QuPath is a JPEG-compressed RGB version of the original image. DO NOT use this image for quantitative analysis of pixel values.
+    🛑 Note the dropdown next to the label "Pixel API". There are two main ways to access OMERO images:  
+    - OMERO.web API 
+        - fast access to JPEG-compressed RGB image (same as OMERO web)
+        - ✅ best for viewing and annotating images quickly
+        - ❌ not recommended for quantitative analysis involving pixel values 
+    - OMERO Ice API
+        - access to raw pixel values via OMERO.server
+        - ✅ necessary for quantitative analysis of pixel values
+        - ❌ slower to view images
+    
+    Choose the option that best suites your needs.
+2. Once you have selected an image and chosen the Pixel API, click the button at the bottom of the window to "Import ___ to QuPath".    
 
-2. When opening an image for the first time (double click), QuPath may ask for confirmation of the image type. Apply the correct image type for the optimal viewing experience.
+3. When opening an image for the first time (double click), QuPath may ask for confirmation of the image type. Apply the correct image type for the optimal viewing experience.
 
     ![Pop-up window for QuPath setting image type](https://github.com/TheJacksonLaboratory/imaging-applications-documentation/blob/main/omero/images/qupath_set_type.png?raw=true)
+
+(Optional) To improve performance, you may consider increasing the tile cache QuPath uses to reduce how often data needs to be reloaded from OMERO. You can do this in the Preferences. Go to the `Edit menu > Preferences` and then click the `General` tab and look for `Percentage memory for tile cache`. The default is 25%, but you can increase this to 50% or even higher, depending how much memory your computer has. You can monitor memory usage and number of cached tiles using the `View menu > Memory monitor`, where you can also clear the tile cache.
 
 ## Add annotations in QuPath
 1. Use the QuPath annotation tools to draw ROIs on the image. Find more information about using each tool in the [QuPath documentation](https://qupath.readthedocs.io/en/0.5/docs/starting/annotating.html).
