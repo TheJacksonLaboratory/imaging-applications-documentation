@@ -7,7 +7,7 @@ JAX uses a special workflow for importing data into OMERO. When you need to have
 ### Option 1: Use Globus
 Use Globus to facilitate data transfers between many of the data storage locations at JAX, including Sumner, the scientific services delivery folders, Box, OneDrive, and the OMERO import folders.
 
-1. Follow the [instructions for using Globus](https://jacksonlaboratory.sharepoint.com/sites/ResearchIT/SitePages/Globus-Data-Transfers.aspx) to set up a data transfer from any other collection to `omero_drop/dropbox` in the `The Jackson Laboratory Scientific Services` collection. Before initating a data transfer, read the **Import data** section below for details on how to structure your import folder.
+1. Follow the [instructions for using Globus](https://jacksonlaboratory.sharepoint.com/sites/ResearchIT/SitePages/Globus-Data-Transfers.aspx) to set up a data transfer from any other collection to `/globus/omero_drop/dropbox` in the `The Jackson Laboratory Scientific Services` collection. Before initating a data transfer, read the **Import data** section below for details on how to structure your import folder.
     ![](https://github.com/TheJacksonLaboratory/imaging-applications-documentation/blob/main/omero/images/globus_omero_import.png?raw=true)
 
 
