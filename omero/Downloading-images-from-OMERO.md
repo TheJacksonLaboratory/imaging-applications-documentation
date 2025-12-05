@@ -87,9 +87,9 @@ In order to download multiple images, a dataset, or a project, you can use the `
 You can download multiple images by specifying their IDs in a comma-separated list. For example, to download images with IDs 123, 456, and 789, you would run:
 
 ```bash
-omero transfer pack --simple --zip Image:123,456,789 my_images.zip
+omero transfer pack --simple Image:123,456,789 my_images
 ``` 
-The images, along with their metadata, will be downloaded and packed into a single zip file named `my_images.zip`, which you can then extract to access the individual image files as needed.
+The images, along with their metadata, will be downloaded and packed into a directory `my_images`. If you want a zip file or tar archive instead, you can pass `my_images.zip` or `my_images.tar`, as needed. Note: for older versions of `omero-cli-transfer` (<1.3.0), you will need to pass `--zip` to get a zip archive. 
 
 ### Downloading a dataset
 
@@ -98,9 +98,9 @@ If you have a `dataset` in OMERO (green folder icon), you can download all image
 To download an entire dataset to a local zip file, run the following command, replacing `<dataset_id>` with the actual dataset ID:
 
 ```bash
-omero transfer pack --simple --zip Dataset:<dataset_id> my_dataset.zip
+omero transfer pack --simple Dataset:<dataset_id> my_dataset
 ```
-The dataset, along with its metadata, will be downloaded and packed into a single zip file named `my_dataset.zip`, which you can then extract to access the dataset folder inside, which will contain all of the images in that dataset.
+The dataset, along with its metadata, will be downloaded and packed into a directory named `my_dataset`. If you want a zip file or tar archive instead, just add that extension to the target, e.g. `my_dataset.zip`.
 
 ### Downloading a project
 
@@ -109,6 +109,6 @@ You can also download all images in an OMERO `project` (blue-gray folder icon) u
 To download an entire project to a local zip file, run the following command, replacing `<project_id>` with the actual project ID:
 
 ```bash
-omero transfer pack --simple --zip Project:<project_id> my_project.zip
+omero transfer pack --simple Project:<project_id> my_project
 ```
-The project, along with its metadata, will be downloaded and packed into a single zip file named `my_project.zip`, which you can then extract to access the project folder inside--the directory structure will reflect all of the datasets and images contained in the project.
+The project, along with its metadata, will be downloaded and packed into a directory named `my_project`. The directory structure will reflect all of the datasets and images contained in the project. If you want a zip file or tar archive instead, just add that extension to the target, e.g. `my_project.zip`.
