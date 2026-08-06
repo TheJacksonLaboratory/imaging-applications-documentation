@@ -39,9 +39,11 @@ In order to import multiple images into QuPath or save your work, you will need 
     - OMERO.web API 
         - fast access to JPEG-compressed RGB image (same as OMERO web)
         - ✅ best for viewing and annotating images quickly
-        - ❌ not recommended for quantitative analysis involving pixel values 
+        - ❌ not recommended for quantitative analysis involving pixel values
+        - ❌ not usable for images other than 8-bit RGB
     - OMERO Ice API
         - access to raw pixel values via OMERO.server
+        - ✅ works with all image types
         - ✅ necessary for quantitative analysis of pixel values
         - ❌ slower to view images
     
@@ -79,3 +81,8 @@ In order to import multiple images into QuPath or save your work, you will need 
     ![QuPath pop-up window for sending annotations to OMERO](https://github.com/TheJacksonLaboratory/imaging-applications-documentation/blob/main/omero/images/qupath_send_anno.png?raw=true)
 
 The QuPath annotations will be created as ROIs in OMERO, which can be viewed in OMERO.iviewer. Minimal shape measurements for the annotations are added to the images in OMERO as CSV attachments if the measurements checkboxes are selected in the "Data to send" pop-up window.
+
+## For further reading
+
+For more information about using QuPath, please see [the QuPath documentation](https://qupath.readthedocs.io/en/stable/index.html), including the dedicated page for [the QuPath OMERO extension](https://qupath.readthedocs.io/en/stable/docs/advanced/omero.html).
+
